@@ -1,4 +1,4 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="SettingBase.cs" company="ExMod Team">
 // Copyright (c) ExMod Team. All rights reserved.
 // Licensed under the CC BY-SA 3.0 license.
@@ -131,7 +131,7 @@ namespace Exiled.API.Features.Core.UserSettings
         public Action<Player, SettingBase> OnChanged { get; set; }
 
         /// <summary>
-        /// Tries ti get the setting with the specified id.
+        /// Tries to get the setting with the specified id.
         /// </summary>
         /// <param name="player">Player who has received the setting.</param>
         /// <param name="id">Id of the setting.</param>
