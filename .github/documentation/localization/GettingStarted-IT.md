@@ -153,8 +153,8 @@ public class EventHandlers
         // Disattivare l'evento per i giocatori del personale della fondazione.
         // Questo può essere fatto controllando il lato del giocatore.
         if (ev.Player.Role.Side == Side.Mtf) {
-            // Disable the tesla trigger by setting ev.IsTriggerable to false.
-            // Players who have a MTF ranking will no longer trigger tesla gates.
+            // Disattiva il trigger Tesla impostando ev.IsTriggerable su false.
+            // I giocatori che faranno parte della MTF non attiveranno più i Tesla Gate.
             ev.IsTriggerable = false;
         }
     }
